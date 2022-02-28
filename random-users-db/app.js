@@ -6,6 +6,7 @@ const loadApidata = () => {
 
 const showApiData = (allusers) => {
   const contentBox = document.getElementById("content");
+  contentBox.innerHTML="";
   users = allusers.results;
 
   users.forEach((user) => {
